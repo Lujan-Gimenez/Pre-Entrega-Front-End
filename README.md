@@ -1,0 +1,2 @@
+La pagina tiene como proposito gentionar los servicios de una cafeteria, el objetivo es que desde la pagina se puedan realizar pedidos online y solicitar reservas para eventos.
+Pre-Entrega: parte visual completa,(interfaz, paleta de colores, tipografias), sistema de reservas completo mediante formulario (ya funcional), sistema de pedidos proximamente(falta agregar productos, y catalogo junto con sus precios individuales)

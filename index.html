@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="Logo">
+            <a href="inicio">
+                <img src="assets/Logo/Logo_nuevo.png" alt="Logo del café" width="75">
+            </a>
+        </div>
+        <nav>
+            <ul>
+
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section id="inicio">
+            <div class="texto_presentacion">
+                <h1>Bienvenidos</h1>
+            </div>
+        </section>
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <div class="servicios-contenedor">
+                <div class="tarjeta">
+                   <img src="assets/img/cafe.jpg" alt="Cafete de Especialidad" class="imagen-servicio">
+                   <h3>Cafeteria de Especialidad</h3>
+                   <p>Disfruta de nuestra selección de café de especialidad, cuidadosamente seleccionados y tostados para ofrecer la mejor calidad.</p>
+                </div>
+                <div class="tarjeta">
+                   <img src="assets/img/pasteleria.jpg" alt="Pasteleria Casera" class="imagen-servicio">
+                   <h3>Pasteleria de la Casa</h3>
+                   <p>Prueba los postres preparados con ingredientes frescos y de calidad.</p>
+                </div>
+                <div class="tarjeta">
+                   <img src="assets/img/reuniones.jpg" alt="trabajo" class="imagen-servicio">
+                   <h3>Espacio para Eventos</h3>
+                   <p>Reserva tus fechas para tus reuniones o eventos privados.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="reseñas">
+            <h2>Opiniones de Clientes</h2>
+            <div class ="reseñas-contenedor">
+                <div class="comentario-box">
+                    <p class="texto-comentario"> "El cafe tiene un sabor increible y los postres estan siempre frescos".</p>
+                    <h4 class ="autor"> Carlos.M</h4>
+                </div>
+                <div class="comentario-box">
+                    <p class="texto-comentario">"Excelente ambiente, tranquilo, muy organizado todo".</p>
+                    <h4 class="autor">Sofia C.</h4>
+                </div>
+                <div class="comentario-box">
+                    <p class="texto-comentario">"Espacio para eventos adecuado, buen servicio".</p>
+                    <h4 class="autor">Miriam V.</h4>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+           <h2>Reserva tu Fecha</h2>
+           <div class="contacto-contenedor">
+               <form action="https://formspree.io/f/mzeznoko" method="POST">
+                   <label>Nombre:
+                       <input type="text" name="nombre" required>    
+                   </label><br>
+                   <label>Correo:
+                       <input type="email" name="correo" required>
+                   </label><br>
+                   <label>Fecha:
+                       <input type="date" name="fecha" required>
+                   </label><br>
+                   <label>Hora:
+                       <input type="time" name="hora" required>
+                   </label><br>
+                   <label>Tipo de Evento:
+                       <textarea name="mensaje"></textarea>
+                   </label><br>
+                   <button type="submit">Enviar</button>
+               </form>
+
+               <div class="mapa">
+                   <h3>Ubicación</h3>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1264.4857733175454!2d-58.567829003356465!3d-34.713492338943304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1791050484632!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+               </div>
+           </div>
+        </section>
+    </main>
+
+</body>
+</html>
